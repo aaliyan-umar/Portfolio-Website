@@ -1,0 +1,134 @@
+/* General Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .nav-links li a:hover {
+    color: #ff6347;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+/* Skill Cards and Bars */
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.skill-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill-bar {
+    background-color: #4CAF50;
+    height: 10px;
+    width: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: width 1s ease-in-out;
+}
+
+.skill-card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Button and Extra Info */
+.show-more-btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.show-more-btn:hover {
+    background-color: #e5533b;
+}
+
+.extra-info {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
