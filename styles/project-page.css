@@ -1,0 +1,12 @@
+/* Additional custom styles can be placed here if needed */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+    line-height: 1.5;
+}
+
+button {
+    font-weight: bold;
+}
