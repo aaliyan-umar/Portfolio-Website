@@ -21,7 +21,7 @@ jobs:
       - name: Install StyleHint
         run: npm install --save-dev stylelint
       - name: Lint HTML Files
-        run: npx htmlhint "/*.html"
+        run: npx htmlhint "**/*.html"
       - name: Lint CSS Files
-        run: npx stylelint "/*.css"
+        run: npx stylelint "**/*.css"
     
